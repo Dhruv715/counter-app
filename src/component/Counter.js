@@ -15,7 +15,7 @@ function Counter() {
   }
   return(
     <>
-        {/* <h1 style={{textAlign:'center'}}>Counter App Using UseState Hook</h1> */}
+        <h1 style={{textAlign:'center'}}>Counter App Using UseState Hook</h1>
       <div className="row">
         <button onClick={()=>Decre()}>-</button>
         <span>{state<=9 ? "0"+state : state}</span>

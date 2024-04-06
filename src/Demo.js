@@ -7,9 +7,11 @@ function Demo(){
   
   return(
     <>
-        {/* <TicTocToe/> */}
+        {/* Counter App Using React js */}
         <Counter/>
-        <Buttonapp onstamp={()=>alert("Button Clicked!!")}>ClickMe</Buttonapp>
+
+        {/* Best Example to Pass a Function as a Props */}
+        {/* <Buttonapp onstamp={()=>alert("Button Clicked!!")}>ClickMe</Buttonapp> */}
     </>
   );
 }
